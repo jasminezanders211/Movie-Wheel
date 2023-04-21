@@ -9,7 +9,10 @@ header{
 }
 
 .type{
-  border: solid 1px rgb(241, 165, 203);
+  border: solid 1px rgb(241, 165, 203); 
+  height: 40px; 
+  width: 50%; 
+  center;
 }
 .horror{ 
     background-color: rgb(244, 88, 88);
@@ -27,4 +30,4 @@ header{
  
   .action{ 
     background-color: rgb(88, 202, 244);
-  }
+  } 
