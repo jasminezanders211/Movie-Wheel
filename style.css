@@ -1,33 +1,61 @@
-header{ 
-    color: rgb(59, 59, 134);
-    font-size: 10em; 
+header {
+  color: rgb(59, 59, 134);
+  font-size: 10em;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
 }
 
 /* class selector */
-.fantasy{ 
+.fantasy {
   background-color: rgb(155, 244, 88);
 }
 
-.type{
-  border: solid 1px rgb(241, 165, 203); 
-  height: 40px; 
-  width: 50%; 
-  center;
+.type {
+  border: solid 1px rgb(241, 165, 203);
+
 }
-.horror{ 
-    background-color: rgb(244, 88, 88);
-  }
-  .pixar{ 
-    background-color: rgb(241, 255, 91);
-  }
-  .asian{ 
-    background-color: rgb(124, 88, 244);
-  }
-  
-  .crime{ 
-    background-color: rgb(244, 179, 88);
-  } 
- 
-  .action{ 
-    background-color: rgb(88, 202, 244);
-  } 
+
+.horror {
+  background-color: rgb(244, 88, 88);
+}
+
+.pixar {
+  background-color: rgb(241, 255, 91);
+}
+
+.asian {
+  background-color: rgb(124, 88, 244);
+}
+
+.crime {
+  background-color: rgb(244, 179, 88);
+}
+
+.action {
+  background-color: rgb(88, 202, 244);
+}
+
+
+#wheelContainer {
+  display: flex;
+  justify-content: center;
+  background-color: lime;
+
+}
+
+#wheel {
+  background-color: red;
+  border-radius: 25px;
+  width: 30%;
+  text-align: center;
+
+}
+
+#buttonContainer {
+  display: flex;
+  justify-content: center;
+
+}
