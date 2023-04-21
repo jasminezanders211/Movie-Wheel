@@ -13,7 +13,7 @@ footer {
   background-color: rgb(155, 244, 88);
 }
 
-.type {
+.section {
   border: solid 1px rgb(241, 165, 203);
 
 }
@@ -43,15 +43,15 @@ footer {
   display: flex;
   justify-content: center;
   background-color: lime;
-
+  height: 50em;
 }
 
 #wheel {
   background-color: red;
   border-radius: 25px;
-  width: 30%;
+  width: 40%;
   text-align: center;
-
+  border-radius: 50%;
 }
 
 #buttonContainer {
